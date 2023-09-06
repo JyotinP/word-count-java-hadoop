@@ -1,7 +1,7 @@
 # Word Count with Hadoop MapReduce and Java
 
-- `WC_Mapper.java`, `WC_Reducer.java`, and `WC_Runner.java` contain the code for Hadoop MapReduce. A JAR file 'word_count_proj-1.0-SNAPSHOT.jar' is created from them.
-- `sample.txt` contains sample English text. We'll count the words from this file using the MapReduce program executed on a Hadoop cluster.
+- In this project, we have three Java files: `WC_Mapper.java`, `WC_Reducer.java`, and `WC_Runner.java`. These files collectively contain the code for Hadoop MapReduce implementation. From this code, we create a JAR file named 'word_count_proj-1.0-SNAPSHOT.jar.'
+- We have a file named `sample.txt`, which contains some sample text. Our objective is to perform a word count analysis on the contents of the file using the MapReduce code. Execution will be done on a Hadoop cluster to efficiently process and count the words.
 
 ## Deploying an Example HDFS Cluster
 To deploy an example HDFS cluster, run:
